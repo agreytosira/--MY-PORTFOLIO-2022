@@ -1,0 +1,33 @@
+.jumbotron {
+    flex-wrap: wrap;
+    color: $white;
+    padding-top: 120px;
+    text-align: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 5% auto;
+    /* Will not center vertically and won't work in IE6/7. */
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    &-desc {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    span {
+        color: $primary;
+    }
+
+    span.i {
+        font-family: 'Helvetica Bold Italic', sans-serif !important;
+        color: $white;
+    }
+
+    h1 {
+        margin: 20px 0px;
+        line-height: 71px;
+    }
+}

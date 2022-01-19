@@ -1,0 +1,36 @@
+.btn-primary {
+    text-align: center;
+    display: inline-block;
+    background: $primary;
+    padding: 16px 36px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Helvetica Medium', sans-serif;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: darken($primary, 20%);
+        transform: scale(1.2);
+    }
+}
+
+.btn-secondary {
+    text-align: center;
+    display: inline-block;
+    background: none;
+    border: 1px solid #0055B0;
+    padding: 16px 36px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Helvetica Medium', sans-serif;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: $white;
+        color: $body;
+        border: 1px solid $white;
+        transform: scale(1.2);
+    }
+}

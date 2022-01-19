@@ -1,0 +1,83 @@
+@import 'color';
+@import 'button';
+@import 'navbar';
+@import 'jumbotron';
+@import 'featured';
+@import 'offer';
+@import 'intro';
+@import 'why';
+@import 'testimonial';
+@import 'tools';
+@import 'footer';
+@import 'responsive-phone';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: $white;
+    background: $body;
+}
+
+html {
+    font-family: 'Helvetica Roman', sans-serif;
+}
+
+p {
+    line-height: 28px;
+}
+
+b,
+h1,
+h2,
+h3 {
+    font-family: 'Helvetica Bold', sans-serif;
+}
+
+h4,
+h5 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: Helvetica Roman;
+    src: url('../font/Helvetica Roman.ttf');
+}
+
+@font-face {
+    font-family: Helvetica Medium;
+    src: url('../font/Helvetica Medium.ttf');
+}
+
+@font-face {
+    font-family: Helvetica Bold;
+    src: url('../font/Helvetica Bold.ttf');
+}
+
+@font-face {
+    font-family: Helvetica Bold Italic;
+    src: url('../font/Helvetica Bold Italic.ttf');
+}

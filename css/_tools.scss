@@ -1,0 +1,30 @@
+.tools {
+    width: 80%;
+    margin: 120px auto;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 60px;
+    }
+
+    &-box {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        margin-top: 32px;
+
+        &-content {
+            background: $secondary-div;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+
+            img {
+                width: 50px;
+            }
+        }
+
+
+    }
+}

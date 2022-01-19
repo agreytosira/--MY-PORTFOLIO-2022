@@ -1,0 +1,27 @@
+.intro {
+    width: 80%;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+
+    &-left {
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+
+        p {
+            margin: 20px 0px;
+        }
+    }
+}

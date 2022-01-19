@@ -1,0 +1,178 @@
+@media only screen and (max-width:768px) {
+
+    h1 {
+        font-size: 36px !important;
+    }
+
+    h2 {
+        font-size: 30px !important;
+    }
+
+    h3 {
+        font-size: 24px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
+    }
+
+    h5 {
+        font-size: 18px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    .why-box {
+        width: 100%;
+    }
+
+    .jumbotron {
+        width: 90%;
+        padding-top: 240px;
+        display: flex;
+        align-items: center;
+
+        h1 {
+            font-size: 35px;
+            line-height: normal;
+
+            span {
+                display: inline-block;
+            }
+        }
+
+
+        .btn-primary {
+            display: inline-block !important;
+        }
+
+        text-align: center;
+    }
+
+    .featured {
+        span.label {
+            margin: 0px;
+            margin-top: 10px;
+        }
+
+        &-name {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        &-box {
+            padding: 30px;
+            flex-direction: column !important;
+            align-items: center !important;
+
+            .btn-secondary {
+                margin-top: 10px;
+            }
+
+            &-left {
+                width: 100%;
+                order: 2;
+            }
+
+            &-right {
+                width: 100%;
+                order: 1;
+            }
+
+            .btn-primary {
+                display: block;
+                margin: 0px;
+            }
+
+            .btn-secondary {
+                display: block;
+            }
+        }
+    }
+
+    .offer {
+        padding: 30px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        &-right {
+            margin-top: 30px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .btn-secondary,
+            .btn-primary {
+                display: block;
+                margin: 0px;
+            }
+
+            .btn-primary {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .intro {
+        flex-direction: column;
+
+        &-left,
+        &-right {
+            width: 100%;
+        }
+
+        &-right {
+            text-align: center;
+
+            p {
+                text-align: left;
+            }
+        }
+    }
+
+    .testimonial {
+        display: none;
+        width: 90%;
+        flex-direction: column !important;
+
+        &-box {
+            height: 100%;
+
+            &-content {
+                width: 100%;
+                margin: 0px;
+
+                &-top {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+    .testimonial-mobile {
+        width: 90%;
+        display: flex;
+        width: 90%;
+        margin: Auto;
+        border-radius: 30px;
+
+        .testimonial-box-content-top {
+            flex-direction: row;
+        }
+
+        h2 {
+            display: block;
+        }
+    }
+
+    .footer {
+        &-right {
+            display: none;
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+.why {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &-box {
+        width: 25%;
+
+        &-content {
+            padding: 30px;
+            margin: 16px;
+            border-radius: 15px;
+            background-color: $secondary-div;
+
+            img {
+                width: 70px;
+            }
+
+            h4 {
+                font-family: 'Helvetica Bold', sans-serif;
+                margin-bottom: 10px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
